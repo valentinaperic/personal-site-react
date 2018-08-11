@@ -48,7 +48,7 @@ const About = () => (
 
 const AboutLinks = () => (
   <div className="about-links">
-     <Link to="/">Main</Link> | <Link to="/About">About</Link> | <Link to="/Experience">Experience</Link>
+     <Link to="/">Main</Link> | <Link to="/Experience">Experience</Link>
   </div>
 );
 
