@@ -3,14 +3,30 @@ body {
 }
 .main-content {
   text-align: center;
-  margin-top: 65px;
+  margin: 65px 0 60px 0;
 }
 .main-content .img-container {
   text-align: center;
 }
-.main-content .img-container .vc-logo {
-  width: 400px;
+.main-content .vc-logo {
+  width: 450px;
 }
+
+.navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigation-bar a {
+  padding-right: 30px;
+}
+
+
+
+
 @media (max-width: 415px) {
   .main-content .img-container .vc-logo {
     width: 300px;
@@ -33,7 +49,13 @@ body {
     width: 100%;
   }
 }
+
 .main-content .about-me {
-  margin: 16px 455px;
+  margin: 16px 315px;
   display: block;
+}
+
+.navigation-bar li a.active {
+  color: black;
+
 }

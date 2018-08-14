@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Main} />
+          <Route path="/" component={Main} />
           <Route path="/About" component={About} />
           <Route path="/Experience" component={Experience} />
         </div>
@@ -32,7 +32,7 @@ const Main = () => (
 );
 
 const Logo = () => (
-    <img src={vcHeart} className="about-" alt="logo" />
+    <img src={vcHeart} className="vc-logo" alt="logo" />
 );
 
 

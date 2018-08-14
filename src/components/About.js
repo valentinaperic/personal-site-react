@@ -10,9 +10,6 @@ const About = () => (
       I currently work at ITX building web apps with my team. I also co-lead Girl Develop It - Rochester with my best friend Kristen.
       When I am not coding, I am either attending tech events, playing video games, or playing the violin in my community orchestra.
      </p>
-     <div className="main-links">
-        <Link to="/">Main</Link> | <Link to="/Experience">Experience</Link>
-     </div>
   </div>
 );
 
