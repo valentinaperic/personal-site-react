@@ -1,0 +1,43 @@
+.about-me-content {
+  .about-me-img-container {
+    display: inline-block;
+    float: left;
+    width: 35%;
+
+    @media (max-width: 992px) {
+      display: block;
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+
+    .about-me-img {
+      width: 300px;
+      border-radius: 40px;
+
+      @media (max-width: 992px) {
+        margin: 0 auto;
+      }
+    }
+  }
+  .about-me-bio {  
+    margin-top: 5px;
+    float: left;
+    display: inline-block;
+    width: 65%;
+
+    @media (max-width: 992px) {
+      float: none;
+      display: block;
+      width: 100%;
+      margin-top: 30px;
+    }
+    
+    .interests {
+      text-align: center;
+      padding: 40px;
+      border: 3px solid #F09F9B;
+      margin: 30px 0px 30px 0px;
+    }
+  }
+}

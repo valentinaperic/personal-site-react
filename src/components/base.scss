@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  color: #6182B0;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #F09F9B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace, sans-serif;
+}
+
+.main-content {
+  text-align: center;
+  margin: 65px 0 45px 0;
+  
+  .vc-logo {
+    width: 450px;
+    @media (max-width: 767px) {
+      width: 100%; 
+    }
+  }
+}
+
+.Typewriter {
+  text-align: center;
+}
