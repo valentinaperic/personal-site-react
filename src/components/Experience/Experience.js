@@ -51,10 +51,6 @@ const GirlDevelopIt = () => (
           <img src={gdiSummit} className="gdi-img" alt="girl develop it rochester" />
         </div>
       </div>
-      <div class="connect">
-        <h2>Interested in learning more?</h2>
-        <p class="other-links">You can also learn more by visiting <a rel="noopener noreferrer" href="http://girldevelopit.com/" target="_blank">Girl Develop It</a></p>
-      </div>
     </div>
   </div>
 );

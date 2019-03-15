@@ -46,35 +46,8 @@ const MainContent = () => (
          .pauseFor(1000)
        typewriter.typeString('I am a software engineer.')
          .pauseFor(1500)
-       typewriter.typeString('<br>')
-       typewriter.typeString('I am passionate about writing great code.')
-         .pauseFor(2000)
-      typewriter.typeString('<br>')
-      typewriter.typeString('I am passionate about community')
-         .pauseFor(2000)
-         .deleteChars(9)
-      typewriter.typeString('accessibility')
-         .pauseFor(2000)
-         .deleteChars(13)
-      typewriter.typeString('performance')
-         .pauseFor(2000)
-         .deleteChars(11)
-      typewriter.typeString('responsive design')
-         .pauseFor(2000)
-         .deleteChars(17)
-      typewriter.typeString('intuitive design')
-         .pauseFor(2000)
-         .deleteChars(16)
-      typewriter.typeString('learning.')
-      typewriter.typeString('<br>')
-      typewriter.typeString('<br>')
-      typewriter.typeString("let's build something great")
-         .pauseFor(1500)
-      typewriter.typeString(' together.')
          .start();
        }}
-
-
 
       />
 
