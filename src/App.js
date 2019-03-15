@@ -55,7 +55,7 @@ const MainContent = () => (
 
 
 const Logo = () => (
-    <img src={vcHeart} className="vc-logo" alt="logo" />
+  <Link to="/"><img src={vcHeart} className="vc-logo" alt="logo" /></Link>
 );
 
 
