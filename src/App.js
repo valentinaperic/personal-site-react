@@ -29,7 +29,7 @@ const Main = () => (
     <div className="main-content">
       <Logo />
       <div className="main-links">
-        <Link to="/About">About</Link> | <Link to="/Experience">Experience</Link> | <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@valentinaperic">Blog</a> 
+        <Link to="/About">About</Link> | <Link to="/Experience">Experience</Link> | <a target="_blank" href="https://medium.com/@valentinaperic">Blog</a> 
       </div>
     </div>
 );
